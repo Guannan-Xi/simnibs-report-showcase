@@ -1,0 +1,84 @@
+{
+  "schema_version": "simnibs.delivery.manifest.v2",
+  "project_id": "SIMNIBS-TI-ERNIE-EXAMPLE-20260729",
+  "generated_files": [
+    {
+      "path": "standard_report_data.json",
+      "bytes": 16151,
+      "sha256": "95382EBB8F1D8B636755F80BE3DDBB9C78232A5FE42C7C0DDAF6DFDEFAD2877C"
+    },
+    {
+      "path": "report.html",
+      "bytes": 26392,
+      "sha256": "9F906E73D0C5E57CD57F004CE2F6BECE5F65000526CB43541A63B11BF1C0B2E7"
+    },
+    {
+      "path": "report.pdf",
+      "bytes": 4858781,
+      "sha256": "00C364230D116836B48F1F5ED60F30D3B25A5200A7023F155B5E273BE9A1877F"
+    },
+    {
+      "path": "publication_index.json",
+      "bytes": 11415,
+      "sha256": "2EC39619BD9A0EF659FC5EBB8D9F0A6C144C79CB257DDE8EEAD991DBEFF218E4"
+    }
+  ],
+  "declared_artifacts": [
+    {
+      "path": "tables/violante2023_ti_reproduction_results.xlsx",
+      "label": "Excel 结果表",
+      "purpose": "ROI 统计、图件索引和计算口径",
+      "delivery_layer": "publication",
+      "bytes": 24463,
+      "sha256": "714BA9219796192F5153FCCA3E7CCAD496B7882E8C1E546A4F700228085D8DC2"
+    },
+    {
+      "path": "packages/figure_support_csv.zip",
+      "label": "图表数据",
+      "purpose": "各图对应的 CSV 文件",
+      "delivery_layer": "publication",
+      "bytes": 8602,
+      "sha256": "D90A6B5C1D4C013E89A4E9FDFFD9FD6EC39DD59F07615DBA80A5DF245D29F88F"
+    },
+    {
+      "path": "packages/nifti_fields.zip",
+      "label": "NIfTI 数据",
+      "purpose": "空间场和 ROI 掩膜",
+      "delivery_layer": "trace",
+      "bytes": 52930619,
+      "sha256": "E7575DB0DF4B306E9BEDB061B04FB9CCFF8923BB5EAA9B3B86CEBEAEEAE2AAB4"
+    },
+    {
+      "path": "raw/violante2023_reproduction_fields.h5",
+      "label": "HDF5 数据",
+      "purpose": "逐单元电场与派生指标",
+      "delivery_layer": "trace",
+      "bytes": 183038916,
+      "sha256": "059941D8360B477C0B00E061C1EB88ABA9813D8234D512651162A6E339BCBF06"
+    },
+    {
+      "path": "publication_index.json",
+      "label": "发表图件索引",
+      "purpose": "图件、图注与源数据的对应关系",
+      "delivery_layer": "publication",
+      "generated_by_builder": true,
+      "bytes": 11415,
+      "sha256": "2EC39619BD9A0EF659FC5EBB8D9F0A6C144C79CB257DDE8EEAD991DBEFF218E4"
+    },
+    {
+      "path": "standard_manifest.json",
+      "label": "标准文件清单",
+      "purpose": "标准报告及客户交付文件的大小与 SHA-256",
+      "delivery_layer": "trace",
+      "generated_by_builder": true
+    },
+    {
+      "path": "reproducibility/DATA_AND_CODE_AVAILABILITY.md",
+      "label": "数据与代码说明",
+      "purpose": "冻结脚本、依赖和使用边界",
+      "delivery_layer": "trace",
+      "bytes": 2171,
+      "sha256": "04804826E71ABB79D60312C613F12EFF943387E9A33EBFCF6924AE9B8B8A8B3F"
+    }
+  ]
+}
