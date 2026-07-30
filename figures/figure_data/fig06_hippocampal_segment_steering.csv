@@ -1,0 +1,7 @@
+﻿condition,segment,ernie_directional_median_v_per_m,ernie_relative_share,paper_group_median_relative_share,paper_between_participant_sd
+TI_1to1,hippocampus_anterior,0.058404222601484576,0.27229388140272576,0.32,0.03
+TI_1to1,hippocampus_middle,0.06988423587498777,0.325816336347919,0.37,0.02
+TI_1to1,hippocampus_posterior,0.0862012035776818,0.4018897822493552,0.31,0.03
+TI_1to3,hippocampus_anterior,0.035014365742344435,0.297661513557234,0.4,0.02
+TI_1to3,hippocampus_middle,0.038504890325512395,0.32733490070866844,0.34,0.01
+TI_1to3,hippocampus_posterior,0.04411222851307441,0.3750035857340974,0.26,0.02
