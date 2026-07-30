@@ -1,0 +1,3 @@
+﻿condition,hippocampal_roi_centroid_mni_y_mm,hippocampal_p99_threshold_v_per_m,hippocampal_p99_centroid_mni_y_mm,hippocampal_peak_mni_y_mm,hippocampal_p99_centroid_distance_to_roi_centroid_mm,hippocampal_peak_distance_to_roi_centroid_mm,distance_to_anterior_middle_boundary_mm,segment_assignment_interpretation
+TI_1to1,-22.020257672804448,0.20647667348384857,-17.525220317243672,-12.814711570739746,4.856703059089521,10.402557862129187,0.9747796827563278,descriptive only; robustness not established because model uncertainty was not quantified
+TI_1to3,-22.020257672804448,0.10449779778718948,-15.872225897587418,-12.814711570739746,6.967637757952229,10.402557862129187,2.627774102412582,descriptive only; robustness not established because model uncertainty was not quantified
