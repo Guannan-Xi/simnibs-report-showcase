@@ -1,0 +1,286 @@
+{
+  "schema_version": "simnibs.publication-index.v1",
+  "project_id": "SIMNIBS-TI-ERNIE-EXAMPLE-20260729",
+  "figures": [
+    {
+      "figure_id": "anatomy_target",
+      "category": "anatomy",
+      "title": "个体头模型与左海马靶区",
+      "conclusion": "绿色轮廓标示本次分析采用的左海马范围。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig01_individual_anatomy_hippocampus.png",
+          "bytes": 628605,
+          "sha256": "217776C08F80885E7BF270894637EBF5C4A51B2436AB6244F8C928E0E60D6FE1"
+        },
+        "vector": {
+          "path": "figures/svg/fig01_individual_anatomy_hippocampus.svg",
+          "bytes": 806414,
+          "sha256": "6F41DD2F9D1F807B10D6DC3858DF3D3AC98A8A9DE26CB622000C6735C7B6FCE1"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig01_individual_anatomy_hippocampus.pdf",
+          "bytes": 689941,
+          "sha256": "E24ABF9372529D663ABD7C10549D52666DAE52090378FA2AFB0B93B877DC786F"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig01_anatomy_roi.csv",
+          "bytes": 140,
+          "sha256": "42B4F4DED229143E4F1D340EECA7301AB23F9F70BEA37B4F57AF961BAAA8DA62"
+        }
+      }
+    },
+    {
+      "figure_id": "stimulation_montage",
+      "category": "protocol",
+      "title": "刺激电极与两组回路",
+      "conclusion": "四个电极组成 FT7-Fp2 与 TP7-TP8 两组回路。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig02_stimulation_montage.png",
+          "bytes": 735323,
+          "sha256": "917F79501B6370D9DB452AE59B637D4DD3F08CEE274DB4314214D99136451318"
+        },
+        "vector": {
+          "path": "figures/svg/fig02_stimulation_montage.svg",
+          "bytes": 780504,
+          "sha256": "B4FB08733D52878F61560CFEEA771E0A4E46CC4E4C4F846397883F11A382752F"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig02_stimulation_montage.pdf",
+          "bytes": 445496,
+          "sha256": "10F1243DBAAA2080A1AF18DB9C39F8DC3F8108A4F207CC82EA11C22BC2A06ED0"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig02_electrode_montage.csv",
+          "bytes": 349,
+          "sha256": "805ED234C34A7F494544188B82A2DF944B17E52CEFB69AC58A089E9A6D7F610A"
+        }
+      }
+    },
+    {
+      "figure_id": "carrier_fields",
+      "category": "field",
+      "title": "两组载波基础电场",
+      "conclusion": "E1 和 E2 为两组回路各自在 1 mA 条件下的基础场。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig03_carrier_fields_E1_E2.png",
+          "bytes": 629454,
+          "sha256": "4C7D4948A8A0AD9E5B9356B635D29D0A0A977B92A5756FF138308B2BF4C3A911"
+        },
+        "vector": {
+          "path": "figures/svg/fig03_carrier_fields_E1_E2.svg",
+          "bytes": 732488,
+          "sha256": "0AE6CBBC9C6C538D3653FBDE4747FF89FA476FA8DEB0FD657BD60DDF64E688F8"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig03_carrier_fields_E1_E2.pdf",
+          "bytes": 506612,
+          "sha256": "01FE3CB3A7863BD0234640B96FA9B815BCE39C1BD96724D5DBAE5979C56392F7"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig03_color_scale.csv",
+          "bytes": 218,
+          "sha256": "16944283CECE02A60A3B571EFE6764F2E09D05692621D90ACA409E7F8B95395D"
+        }
+      }
+    },
+    {
+      "figure_id": "ti_1to1_field",
+      "category": "field",
+      "title": "TI 1:1 电场分布",
+      "conclusion": "TI 1:1 在左海马产生的整体场强高于 TI 1:3。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig04_TI_1to1_directional_and_TImax.png",
+          "bytes": 653955,
+          "sha256": "124AAD72A6B528E6DAB3FC64BDBCC4D9ADD986927709CDD401F0210AAD3DC090"
+        },
+        "vector": {
+          "path": "figures/svg/fig04_TI_1to1_directional_and_TImax.svg",
+          "bytes": 747216,
+          "sha256": "76777B742452A9DF99A26B407AAC746C1FE6CD4A954D0B5E0639DF6B67F552A4"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig04_TI_1to1_directional_and_TImax.pdf",
+          "bytes": 514806,
+          "sha256": "A36D73439F0C4491D4EF03E21613E17E8EB399D2F3AA23607ECB2DDEFD6256E5"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig04_TI_1to1_slice_and_scale.csv",
+          "bytes": 371,
+          "sha256": "9BC5E7390DCB55300E2C3CC18232CA500672B12262BF775212F01F9E42562773"
+        }
+      }
+    },
+    {
+      "figure_id": "ti_1to3_field",
+      "category": "field",
+      "title": "TI 1:3 电场分布",
+      "conclusion": "TI 1:3 降低左海马整体场强，并改变海马内相对分布。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig05_TI_1to3_directional_and_TImax.png",
+          "bytes": 652341,
+          "sha256": "F9C6F145CD0C1FBEC0FDF3C1DF22467F001FD9FC7CB71A0B0B1D23B0DC8AFFB8"
+        },
+        "vector": {
+          "path": "figures/svg/fig05_TI_1to3_directional_and_TImax.svg",
+          "bytes": 745636,
+          "sha256": "03859A33706B78EE343C5EB0D222C22F1CF2B97C0D82BFAD6BD0962772C74D28"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig05_TI_1to3_directional_and_TImax.pdf",
+          "bytes": 514026,
+          "sha256": "7DC8959559E57075429A1D3B974BFA8B277367AD24730ADFFA2BD7AA892991BD"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig05_TI_1to3_slice_and_scale.csv",
+          "bytes": 371,
+          "sha256": "9BC5E7390DCB55300E2C3CC18232CA500672B12262BF775212F01F9E42562773"
+        }
+      }
+    },
+    {
+      "figure_id": "segment_comparison",
+      "category": "quantitative",
+      "title": "海马前、中、后三段比较",
+      "conclusion": "TI 1:3 使前段场强份额增加 2.5 个百分点，但后段占比仍最高。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig06_hippocampal_segment_steering.png",
+          "bytes": 145317,
+          "sha256": "1A9ABF763068027D38BCFDD5619B0039F99E80A75D8B7E4E240B8350E2FD23FE"
+        },
+        "vector": {
+          "path": "figures/svg/fig06_hippocampal_segment_steering.svg",
+          "bytes": 28160,
+          "sha256": "71B84A1F3474CC3E82610F9CADBB07AEBB2CACF4CB8D87D59B5BB712168413A4"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig06_hippocampal_segment_steering.pdf",
+          "bytes": 22132,
+          "sha256": "21E70CEA43121A1A4C52BE761891C1EAC47E0406E568C1213D3E2CFF90AE8D2E"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig06_hippocampal_segment_steering.csv",
+          "bytes": 612,
+          "sha256": "610CB6BE33043E0B0E5310666DADA11EE05107B7A3E74DAB5F17051553C83DCB"
+        }
+      }
+    },
+    {
+      "figure_id": "cortical_comparison",
+      "category": "quantitative",
+      "title": "左海马与局部皮层比较",
+      "conclusion": "部分皮层采样区的中位场强与左海马相当或更高。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig07_hippocampus_overlying_cortex.png",
+          "bytes": 70775,
+          "sha256": "1737F5C58499B9B5E066792A91A71B38400377C9C2F1156E741AE6C43AB180D3"
+        },
+        "vector": {
+          "path": "figures/svg/fig07_hippocampus_overlying_cortex.svg",
+          "bytes": 14540,
+          "sha256": "B5263033CB9D0C2C40F490DA6C5D9A40B136107048E3A23D086F9D842C6E6032"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig07_hippocampus_overlying_cortex.pdf",
+          "bytes": 15746,
+          "sha256": "2085C5346FB737A61F40D042CFB2ED3766B86B3D5960FDCFE5B462DD6AADF44B"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig07_hippocampus_overlying_cortex.csv",
+          "bytes": 397,
+          "sha256": "E93C0B36D60FBFB260F51C0CD79AAB9357989B57B4CA12895E00A6DB73636228"
+        }
+      }
+    },
+    {
+      "figure_id": "targeting_focality",
+      "category": "quantitative",
+      "title": "靶区、对侧海马与非靶区比较",
+      "conclusion": "左海马中位场强高于全部非靶区灰质，但 P95 水平接近。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig08_targeting_and_focality.png",
+          "bytes": 143780,
+          "sha256": "DAD574B86A17E738CC5C48758C217C8AEF4E3BFE4DFE6ADD3FA20D59B95ECD5C"
+        },
+        "vector": {
+          "path": "figures/svg/fig08_targeting_and_focality.svg",
+          "bytes": 36665,
+          "sha256": "9908A27056DE117BDE3F05022B072871D6D499088FEC5EC39A104085DBFF7688"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig08_targeting_and_focality.pdf",
+          "bytes": 26071,
+          "sha256": "C75C586524BB9494560765A511B45899DBD2EE69862CC3082FE4D06D5D0C15C1"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig08_targeting_and_focality.csv",
+          "bytes": 1093,
+          "sha256": "FB1ACCF70492BB0BB63A29AEBAB89D5FBFD2649B490E98268F17124468160F90"
+        }
+      }
+    },
+    {
+      "figure_id": "focus_location",
+      "category": "localization",
+      "title": "左海马内高值区位置",
+      "conclusion": "TI 1:3 的高值区重心前移 1.65 mm，但该差异靠近分段边界。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig09_focus_location_mni.png",
+          "bytes": 55354,
+          "sha256": "602436B76CC46116A049F8F40C36C5B14C9B842ECEF3CE069C65FF163069F1CE"
+        },
+        "vector": {
+          "path": "figures/svg/fig09_focus_location_mni.svg",
+          "bytes": 14389,
+          "sha256": "7AC58E954A9CF5369F92EACA6315411EF2D585B986671B66BDACE62B7D4A3060"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig09_focus_location_mni.pdf",
+          "bytes": 15963,
+          "sha256": "F526955214EA92CFB7A0D636A9E8CDE14D66ACEBFF19B94C22F01126C64DD200"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig09_focus_location_mni.csv",
+          "bytes": 783,
+          "sha256": "955B592AE97A863ED0C5315843D2AA0B9A870705362B840F96D77BFB0FBECB80"
+        }
+      }
+    },
+    {
+      "figure_id": "cortical_surface",
+      "category": "localization",
+      "title": "皮层表面电场",
+      "conclusion": "两种方案均存在较广泛的皮层表面电场。",
+      "assets": {
+        "image": {
+          "path": "figures/png/fig10_directional_ti_cortical_surface.png",
+          "bytes": 606356,
+          "sha256": "B1F6F7925C2D7C88205F38892EA5FD44665DE11E4045C830005C1CFC55375804"
+        },
+        "vector": {
+          "path": "figures/svg/fig10_directional_ti_cortical_surface.svg",
+          "bytes": 718607,
+          "sha256": "2F47DC04FEF683B61BE7AFA60A8808E9913C75FA44FF7EF71BC96511693C1DA6"
+        },
+        "pdf": {
+          "path": "figures/pdf/fig10_directional_ti_cortical_surface.pdf",
+          "bytes": 337051,
+          "sha256": "54DC7259B4EA1D4ABF49FE97C833FC85D8C433BB339D5F6EF9366FAAE7067D92"
+        },
+        "source_data": {
+          "path": "figures/figure_data/fig10_cortical_surface_scale.csv",
+          "bytes": 291,
+          "sha256": "28617A032376B2475FC32B5E4BD3CAAA101B80042BAE1C18BD0073C789BC68FA"
+        }
+      }
+    }
+  ]
+}
