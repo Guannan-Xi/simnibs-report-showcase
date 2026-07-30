@@ -1,0 +1,9 @@
+﻿condition,roi,directional_ti_median_v_per_m
+TI_1to1,hippocampus,0.06974617618235185
+TI_1to1,cortex_anterior,0.0555578176886464
+TI_1to1,cortex_middle,0.06662742012846788
+TI_1to1,cortex_posterior,0.07374850714653416
+TI_1to3,hippocampus,0.038256282103751336
+TI_1to3,cortex_anterior,0.03651902362276839
+TI_1to3,cortex_middle,0.0477562074145125
+TI_1to3,cortex_posterior,0.04304629589458644
